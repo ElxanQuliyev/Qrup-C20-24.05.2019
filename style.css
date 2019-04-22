@@ -1,0 +1,36 @@
+body{
+    margin:0;
+}
+.all{
+  background: url(sekil.jpg);
+  background-position: 27% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+  padding: 160px;
+  margin-top:300px;
+  margin-left: 300px;
+  position: relative;
+  box-sizing: border-box;
+
+}
+.all:hover{
+    left: 360px;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: rotate(360deg);
+
+}
+img{
+    width: 100%;
+}
+p,h2{
+    color:#fff;
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+}
+.index{
+    /* position: absolute;
+    top:40%;
+    left: 45%; */
+}
